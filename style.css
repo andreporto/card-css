@@ -1,0 +1,38 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-wrap: wrap;
+    font-size: 16px;
+}
+
+/* CARD STYLE */
+
+.card {
+    min-width: 16rem;
+    max-width: 24rem;
+    background-color: white;
+    margin: 2rem;
+    color: purple;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 4px gray;
+}
+
+.card header, .card section, .card footer {
+    padding: 1rem 2rem;
+}
+
+.card footer {
+    background-color: purple;
+    text-align: center;
+    border-radius: 0% 0% 1rem 1rem;
+}
+
+.card footer a {
+    color: white;
+    text-decoration: none;
+}
+
